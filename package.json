@@ -1,0 +1,21 @@
+{
+  "name": "copilot-lambda-worker",
+  "version": "0.1.0",
+  "description": "copilot load balanced web service with a lambda based worker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannyrandall/copilot-lambda-worker.git"
+  },
+  "author": "dannyrandall",
+  "bugs": {
+    "url": "https://github.com/dannyrandall/copilot-lambda-worker/issues"
+  },
+  "homepage": "https://github.com/dannyrandall/copilot-lambda-worker#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
