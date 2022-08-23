@@ -1,5 +1,7 @@
 'use strict';
 
+// const { randomTopicName } = JSON.parse(process.env.COPILOT_SNS_TOPIC_ARNS);
+
 const app = require('express')();
 app.set('trust proxy', true);
 
