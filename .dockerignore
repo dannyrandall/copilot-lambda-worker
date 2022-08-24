@@ -1,4 +1,7 @@
 node_modules/
-infrastructure/
 copilot/
 lambdas/
+README.md
+
+# generated in copilot pipeline
+infrastructure/
