@@ -31,6 +31,8 @@ Resources:
         - !Sub arn:${AWS::Partition}:iam::aws:policy/service-role/AWSLambdaSQSQueueExecutionRole
 
   WorkerLambda:
+    Metadata:
+      "aws:copilot:description": "A lambda to process messages to the requests topic"
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: lambdas/worker
