@@ -5,7 +5,7 @@ This is an example service and lambda deployed with [AWS Copilot](https://github
 
 To deploy this service with Copilot, do the following:
 ```console
-➜ copilot init --name copilot-lambda-worker --deploy # do i need type?
+➜ copilot init --name copilot-lambda-worker --type "Load Balanced Web Service" --deploy
 ```
 Copilot will ask for an application name - use whatever name you'd like.
 
