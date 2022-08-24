@@ -40,8 +40,8 @@ Resources:
       MemorySize: 512
       Role: !GetAtt "WorkerLambdaRole.Arn"
       Events:
-        RandomTopic:
+        Requests:
           Type: SNS
           Properties:
-            Topic: !Sub arn:${AWS::Partition}:sns:${AWS::Region}:${AWS::AccountId}:playground-beta-copilot-lambda-worker-v2-randomTopicName
+            Topic: !Sub arn:${AWS::Partition}:sns:${AWS::Region}:${AWS::AccountId}:${App}-${Env}-${Name}-requests
             SqsSubscription: true
